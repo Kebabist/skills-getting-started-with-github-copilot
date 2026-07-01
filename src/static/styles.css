@@ -102,23 +102,21 @@ section h3 {
   gap: 8px;
 }
 
-.participants-list li {
+.participant-item {
   padding: 9px 12px;
   border-radius: 999px;
   background: #eef2ff;
   color: #263238;
   border: 1px solid #dfe5ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
-.participants-list li::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background: #3949ab;
-  vertical-align: middle;
+.participant-email {
+  min-width: 0;
+  word-break: break-word;
 }
 
 .participants-empty {
@@ -126,8 +124,26 @@ section h3 {
   font-style: italic;
 }
 
-.participants-empty::before {
-  background: #90a4ae;
+.participant-remove {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #c5cae9;
+  background: #ffffff;
+  color: #1a237e;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.participant-remove:hover {
+  background: #e8eaf6;
+  border-color: #9fa8da;
+  color: #0d1b6b;
 }
 
 .form-group {
