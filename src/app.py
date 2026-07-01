@@ -45,7 +45,7 @@ activities = {
         "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
         "max_participants": 15,
         "participants": ["liam@mergington.edu"]
-    },
+    }, 
     "Soccer Club": {
         "description": "Outdoor soccer practices and weekend matches",
         "schedule": "Wednesdays and Saturdays, 3:30 PM - 5:30 PM",
